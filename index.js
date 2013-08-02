@@ -5,7 +5,7 @@ var restify  = require('restify')
 // Database
 // ----------------------------------------------------------------------------
 
-mongoose.connect('mongodb://localhost')
+mongoose.connect('mongodb://localhost/apitest')
 Grid.mongo = mongoose.mongo
 
 require('./models/user')
